@@ -42,11 +42,9 @@
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
 - Fill your variables in the env by :
-`vi sample.env`<br>
+ `cp sample.env .env`  or  `vi .env`
 Press `I` on the keyboard for editing env<br>
 Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
-- Rename the env file by :
-`mv sample.env .env`
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
